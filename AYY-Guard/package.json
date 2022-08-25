@@ -1,0 +1,9 @@
+{
+  "name": "ayy-guard",
+  "version": "0.0.0",
+  "description": "AYY-Guard",
+  "main": "app.js",
+  "author": {
+    "name": "DuckyBoss"
+  }
+}
