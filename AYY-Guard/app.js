@@ -1,5 +1,9 @@
 const { Client, Intents } = require("discord.js");
 
+//gets the Discord Token from .env file
+const TOKEN = process.env.TOKEN;
+
+
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 });
@@ -15,4 +19,4 @@ client.on("messageCreate", (message) => {
     }
 });
 
-client.login("MTAxMjMyMzkxMDc0Mzc2OTExOA.GhHWCO.7lLlT2f2ap9KLpe9-D-vYir0vXw92Oc_-oaOCQ");
+client.login(TOKEN);
