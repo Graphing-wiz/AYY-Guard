@@ -1,7 +1,5 @@
 # AYY-Guard
 
-# AYY-Guard
-
 
 Name: AYYGuard
 
